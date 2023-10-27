@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madlibs Game</title>
+  </head>
+  <body>
+    <h1>Madlibs Game</h1>
+    <form action="/story" method="post">
+      <label for="place">Place:</label>
+      <input type="text" name="place" required /><br />
+
+      <label for="noun">Noun:</label>
+      <input type="text" name="noun" required /><br />
+
+      <label for="verb">Verb:</label>
+      <input type="text" name="verb" required /><br />
+
+      <label for="adjective">Adjective:</label>
+      <input type="text" name="adjective" required /><br />
+
+      <label for="plural_noun">Plural Noun:</label>
+      <input type="text" name="plural_noun" required /><br />
+
+      <input type="submit" value="Generate Story" />
+    </form>
+  </body>
+</html>
